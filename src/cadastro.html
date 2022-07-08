@@ -8,12 +8,23 @@
 
     <title>Cadastro</title>
 
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
 
 </head>
+    <footer>
+
+    </footer>
     <body>
-        
+        <section>
+            <form action="formulario">
+                <label for="email">Email<input placeholder="Escolha seu melhor email" id="email" required type="email"></label>
+                <label for="name">Nome<input placeholder="Digite seu nome completo" id="name" required type="text"></label>
+                <label for="password">Senha<input placeholder="Crie uma senha" id="password" required type="password"></label>
+                <label for="repeat-password">Confirme sua senha<input placeholder="Repita a senha criada acima" id="repeat-password" required type="password"></label>
+                <input type="submit" value="Cadastrar" class="cadastro">
+            </form>
+        </section>
     </body>
 
     <footer>
