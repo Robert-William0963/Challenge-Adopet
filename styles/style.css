@@ -1,0 +1,182 @@
+body{
+    background: #3772FF;
+}
+header {
+    position: absolute;
+    width: 360px;
+    height: 295px;
+    left: -0.5px;
+    top: 0px;
+
+    background-image: url("/img/Logo.png");
+}
+.vetor-superior {
+    position: absolute;
+    width: 333.25px;
+    height: 273.52px;
+    left: 0.02px;
+    top: 0px;
+
+    background: #36D6AD;
+    border: 1px solid #36D6AD;
+}
+
+.caixa-principal {
+    position: absolute;
+    width: 333px;
+    height: 274px;
+    left: 0.02px;
+    top: 0px;
+
+    /*background: #36D6AD;*/
+    border: 1px solid #36D6AD;
+}
+
+#home {
+    position: absolute;
+    left: 48px;
+    right: 48px;
+    top: 48px;
+    bottom: 92.26%;    
+}
+
+#message {
+    position: absolute;
+    left: 125px;
+    right: 550px;
+    top: 50px;
+    bottom: 92.47%;
+}
+
+
+#user {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 283px;
+    top: 40px;
+    transform: scale(0.9);
+    /* Verde */
+    border: 1px solid #36D6AD;
+}
+
+.logo {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 265px;
+    top: 160px;
+    margin: 0 0 0 60px;
+    justify-items: center;
+}
+
+.logo img {
+    padding: 10px 0 10px;
+    transform: scale(0.9);
+}
+
+.Titulo-Boas-Vindas {
+    position: absolute;
+    width: 155px;
+    height: 48px;
+    left: 115px;
+    top: 238px;
+}
+.Titulo-Boas-Vindas h3 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 48px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.paragrafo-inicial {
+    position: absolute;
+    width: 248px;
+    height: 72px;
+    left: 56px;
+    right: 56px;
+    top: 302px;
+}
+
+.paragrafo-inicial p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.botao-conta button{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 90px;
+    top: 398px;
+    cursor: pointer;
+
+    background: #FC7071;
+    border-radius: 6px;
+}
+
+.botao-cadastrar button {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 90px;
+    top: 454px;
+    cursor: pointer;
+
+    background: #FC7071;
+    border: 1px solid #FC7071;
+    border-radius: 6px;
+}
+
+.figura-inicial {
+    position: absolute;
+    left: 0;
+    right: 598px;
+    top: 470px;
+    bottom: 39.72%;
+}
+
+.figura-inicial img {
+    transform: scale(0.7);
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    height: 104px;
+    left: 0px;
+    top: 813px;
+
+    background: #36D6AD;
+}
+
+footer p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
